@@ -25,7 +25,7 @@ public class SinhVienService {
             System.out.print("Vui long nhap chuyen nganh: ");
             String chuyenNganh = sc.nextLine();
             qlySinhVien.add(new SinhVien(maSv, hoTen, chuyenNganh));
-            System.out.println("Co muon nhap tiep khong Y/N");
+            System.out.println("Ban co muon nhap tiep khong (Y/N) ");
             String luaChon = sc.nextLine();
             if(!luaChon.equalsIgnoreCase("y")) {
                 break;
@@ -46,7 +46,7 @@ public class SinhVienService {
             }
         }
         if (flag == 0) {
-            System.out.println("khong tim thay ai");
+            System.out.println("Khong tim thay ai!!!");
         }
     }
     public void sapXepTheoChuyenNganh() {

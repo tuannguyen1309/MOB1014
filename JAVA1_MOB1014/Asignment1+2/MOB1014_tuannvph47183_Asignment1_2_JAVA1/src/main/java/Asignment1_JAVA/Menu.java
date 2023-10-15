@@ -1,10 +1,18 @@
-package com.fptpolytechnic.mob1014assignment;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package Asignment1_JAVA;
 
 import java.util.Scanner;
 
-public class ASM1_MENU {
+/**
+ *
+ * @author Dell
+ */
+public class Menu {
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int chon;
 

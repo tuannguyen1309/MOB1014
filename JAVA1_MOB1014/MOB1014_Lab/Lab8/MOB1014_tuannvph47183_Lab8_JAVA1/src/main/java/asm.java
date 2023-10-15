@@ -1,9 +1,16 @@
-package com.fptpolytechnic.mob1014assignment;
 
 import java.util.Scanner;
 
-public class ASM1_MENU {
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 
+/**
+ *
+ * @author Dell
+ */
+public class asm {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int chon;

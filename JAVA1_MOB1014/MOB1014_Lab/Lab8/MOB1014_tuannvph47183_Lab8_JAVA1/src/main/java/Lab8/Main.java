@@ -39,7 +39,7 @@ public class Main {
                     break;
                 case 4:
                     sVienService.sapXepTheoChuyenNganh();
-
+                    
                     break;
                 case 5:
                     SinhVienPoly sinhVienPoly = new SinhVienPoly("PH47183", "tuan", "web", "Front-end");
