@@ -57,7 +57,7 @@ public class MOB1014_Assignment_PH47183_NguyenVietTuan {
                                 NhanVien nvTP = new TruongPhong();
                                 nvTP.nhap();
                                 listNV.add(nvTP);
-                                break;
+                                  break;
                             case "TT":
                                 NhanVien nvTT = new TiepThi();
                                 nvTT.nhap();
