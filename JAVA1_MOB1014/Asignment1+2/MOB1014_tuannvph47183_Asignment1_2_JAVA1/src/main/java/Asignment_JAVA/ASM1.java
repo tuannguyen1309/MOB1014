@@ -1,8 +1,7 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-
-package Asignment1_JAVA;
+package Asignment_JAVA;
 
 import java.util.Scanner;
 
@@ -10,9 +9,9 @@ import java.util.Scanner;
  *
  * @author Dell
  */
-public class Menu {
+public class ASM1 {
 
-   public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int chon;
 
@@ -20,8 +19,9 @@ public class Menu {
             System.out.println("*------------------------------------------------------------*");
             System.out.println("|                  Ho va ten: Nguyen Viet Tuan               |");
             System.out.println("|                       MSSV: PH47183                        |");
+            System.out.println("|                       ASSIGNMENT-GD2                       |");
             System.out.println("*------------------------------------------------------------*");
-            System.out.println("|                        Menu ASSIGNMENT                     |");
+            System.out.println("|                     Cong ty Rong Viet                      |");
             System.out.println("*------------------------------------------------------------*");
             System.out.println("|        1. Nhap danh sach nhan vien tu ban phim             |");
             System.out.println("|        2. Xuat danh sach nhan vien tu ban phim             |");
