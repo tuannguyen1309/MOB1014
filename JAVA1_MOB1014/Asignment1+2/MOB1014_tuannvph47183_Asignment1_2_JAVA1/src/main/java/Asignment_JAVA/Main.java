@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Dell
  */
-public class MOB1014_Assignment_PH47183_NguyenVietTuan {
+public class Main {
 
     static ArrayList<NhanVien> listNV = new ArrayList<>();
     static Scanner sc = new Scanner(System.in);
