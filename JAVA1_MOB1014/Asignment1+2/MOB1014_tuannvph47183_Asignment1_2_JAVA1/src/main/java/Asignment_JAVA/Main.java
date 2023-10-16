@@ -39,13 +39,13 @@ public class Main {
             System.out.println("|                     10. Thoat chhuong trinh                |");
             System.out.println("*------------------------------------------------------------*");
             System.out.println("Moi ban chon chuc nang (1 => 10): ");
-            chon = sc.nextInt();
+            chon =Integer.parseInt(sc.nextLine());
             switch (chon) {
                 case 1:
                     System.out.println("Nhap danh sach nhan vien");
                     do {
                         System.out.print("Ban can nhap nhan vien nao(NV/TP/TT): ");
-                        sc.nextLine();
+//                        sc.nextLine();
                         //Phương thức toUpperCase() trả về một chuỗi mới với tất cả các ký tự được chuyển đổi thành chữ hoa.
                         switch (sc.nextLine().toUpperCase()) {
                             case "NV":
@@ -57,7 +57,7 @@ public class Main {
                                 NhanVien nvTP = new TruongPhong();
                                 nvTP.nhap();
                                 listNV.add(nvTP);
-                                  break;
+                                break;
                             case "TT":
                                 NhanVien nvTT = new TiepThi();
                                 nvTT.nhap();
@@ -77,7 +77,7 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Tim nhan vien theo ma:");
-                    sc.nextLine();
+//                    sc.nextLine();
                     System.out.println("Nhap ma nv can tim:");
                     String maNV = sc.nextLine();
                     int index = timTheoMa(maNV);
@@ -91,7 +91,7 @@ public class Main {
                     break;
                 case 4:
                     System.out.println("Tim nhan vien theo ma:");
-                    sc.nextLine();
+//                    sc.nextLine();
                     System.out.println("Nhap ma nv can xoa:");
                     maNV = sc.nextLine();
                     index = timTheoMa(maNV);
@@ -108,7 +108,7 @@ public class Main {
                     break;
                 case 5:
                     System.out.println("Cap nhat thong tin theo ma tung nhan vien:");
-                    sc.nextLine();
+//                    sc.nextLine();
                     System.out.println("Nhap ma nv can cap nhat:");
                     maNV = sc.nextLine();
                     index = timTheoMa(maNV);
