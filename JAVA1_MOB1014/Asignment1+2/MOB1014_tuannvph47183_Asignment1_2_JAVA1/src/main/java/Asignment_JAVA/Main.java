@@ -113,7 +113,7 @@ public class Main {
                     maNV = sc.nextLine();
                     index = timTheoMa(maNV);
                     if (index == - 1) {
-                        System.out.println("Ma nv:---" + maNV + "---Khong cos trong danh sach");
+                        System.out.println("Ma nv:---" + maNV + "---Khong co trong danh sach");
                     } else {
                         NhanVien nvCN = listNV.get(index);//lay nv ra
                         System.out.println("Ban muon cap nhat lai ma nv (Y/N):");
