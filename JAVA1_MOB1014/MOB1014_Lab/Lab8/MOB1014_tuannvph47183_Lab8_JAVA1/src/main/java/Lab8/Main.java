@@ -46,7 +46,8 @@ public class Main {
                     sinhVienPoly.inThongTin();
                     break;
                 case 0:
-                    System.exit(1);
+                    System.out.println("Ban da thoat thanh cong!!!");
+                    System.exit(0);
             }
         }
     }

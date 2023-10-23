@@ -14,10 +14,14 @@ import java.util.Scanner;
  * @author Dell
  */
 public class SinhVienService {
-    private ArrayList<SinhVien>  qlySinhVien = new ArrayList<>();
+
+    private ArrayList<SinhVien> qlySinhVien = new ArrayList<>();
     Scanner sc = new Scanner(System.in);
-     public void nhapSinhVien() {
-        while(true) {
+    
+
+//    public String: phương thức có trả về giá trị
+    public String nhapSinhVien() {
+        while (true) {
             System.out.print("Vui long nhap ma sinh vien: ");
             String maSv = sc.nextLine();
             System.out.print("Vui long nhap ho ten: ");
@@ -27,16 +31,20 @@ public class SinhVienService {
             qlySinhVien.add(new SinhVien(maSv, hoTen, chuyenNganh));
             System.out.println("Ban co muon nhap tiep khong (Y/N) ");
             String luaChon = sc.nextLine();
-            if(!luaChon.equalsIgnoreCase("y")) {
+            if (!luaChon.equalsIgnoreCase("y")) {
                 break;
             }
         }
+        return null;
     }
-    public void xuatSinhVien() {
+
+    public String xuatSinhVien() {
         for (SinhVien sinhVien : qlySinhVien) {
             sinhVien.inThongTin();
         }
+        return null;
     }
+
     public void timSinhVien(String maTim) {
         int flag = 0;
         for (SinhVien sinhVien : qlySinhVien) {
@@ -49,10 +57,11 @@ public class SinhVienService {
             System.out.println("Khong tim thay ai!!!");
         }
     }
+
     public void sapXepTheoChuyenNganh() {
         Comparator<SinhVien> compare = new Comparator<SinhVien>() {
             @Override
-            public int compare(SinhVien a, SinhVien b){
+            public int compare(SinhVien a, SinhVien b) {
                 return a.getChuyenNganh().compareToIgnoreCase(b.getChuyenNganh());
             }
         };
